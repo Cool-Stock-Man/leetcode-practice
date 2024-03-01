@@ -24,7 +24,6 @@ class countSubstrings:
 
 		count = 0
 		result = []
-		# print(f'All cases: {self.sliding_window(s)}')
 		for word in self.sliding_window(s):
 			if len(word) == 1:
 				count += 1
@@ -49,3 +48,4 @@ class countSubstrings:
 
 a = countSubstrings()
 a.solution('banana')
+a.solution('apple')
